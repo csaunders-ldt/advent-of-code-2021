@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "noImplicitThis": true,
+
+    "esModuleInterop": true,
+    "noUnusedLocals": false,
+    "module": "commonjs",
+    "outDir": "../dist",
+    "sourceMap": true,
+    "lib": [
+      "es2019",
+      "es7",
+      "esnext.asynciterable",
+      "dom"
+    ],
+    "target": "es2019",
+    "strictNullChecks": true,
+    "strictFunctionTypes": false,
+    "noUnusedParameters": false,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "types": ["node"],
+  },
+  "exclude": []
+}
